@@ -51,4 +51,10 @@ Start på uppgift A2 inlämning 2 Startsida för [ESC] Hacker Escape Rooms
 
 - Skapar arbetsmapp och de filer samt undermappar jag troligtvis kommer använda
 - Skapar repo på Github
-- Bekantar mig med underlaget som finns på Figma
+- Bekantar mig med underlaget som finns på Figma och Itslearning
+
+Jag tänker använda vanlig CSS. Har inte testat Bootstrap eller Tailwind och känner att det ev.
+kan komma senare när jag blivit mer van vid grunderna.
+
+Jag satsar på betyget VG och börjar med att bygga en HTML som är väl strukturerad och semantiskt korrekt.
+Jag tänker att jag ska testa BEM-metoden.
