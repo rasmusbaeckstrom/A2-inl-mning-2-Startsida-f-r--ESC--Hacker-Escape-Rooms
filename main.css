@@ -1,4 +1,46 @@
+* {
+  max-width: 1280px;
+}
+
 body {
+  background-color: white;
+}
+
+.header {
+  display: flex;
   background-color: #011827;
-  color: white;
+  max-width: 100%;
+  height: 144px;
+}
+
+.header__logo {
+  position: absolute;
+  width: 128px;
+  height: 82px;
+  margin-top: 26px;
+  margin-left: 27px;
+}
+
+.header__title {
+  position: absolute;
+  width: 78px;
+  height: 84px;
+  margin-top: 25px;
+  margin-left: 168px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header__hackermanlogo {
+  margin-top: 144px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }

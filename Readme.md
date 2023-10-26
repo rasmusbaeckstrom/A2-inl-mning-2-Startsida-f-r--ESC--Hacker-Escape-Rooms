@@ -62,3 +62,7 @@ Jag tänker att jag ska testa BEM-metoden.
 - Skapa grund HTML. Lite CSS. La till några bilder.
 
 ---
+
+231026:
+
+- Skapat en header med logga, text och ett första försök till responsiv layout.
