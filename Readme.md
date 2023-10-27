@@ -66,3 +66,16 @@ Jag tänker att jag ska testa BEM-metoden.
 231026:
 
 - Skapat en header med logga, text och ett första försök till responsiv layout.
+
+---
+
+231027:
+
+- Fortsätta bygga min HTML för mobile first. Tanken är att bygga den i princip helt klar, sedan
+  CSS efteråt. Anledning till att jag la till lite CSS från start var för att få en något klarare visuell
+  bild från start.
+
+- Uppmärksammar på Figma att vissa element kommer behöva t.ex flex för att fungera bra mellan mobile/desktop
+  så planerar min HTML utifrån det.
+
+- HTML grund klar. Fortfarande fix kvar när det gäller namngivning av <tags>.

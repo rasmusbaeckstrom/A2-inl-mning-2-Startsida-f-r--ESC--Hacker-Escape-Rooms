@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-  flex-direction: column;
   max-width: 100%;
+  text-align: center;
 }
 
 .header {
@@ -17,6 +17,8 @@ body {
 .header__logo {
   width: 128px;
   height: 82px;
+  margin-top: 26px;
+  margin-left: 27px;
 }
 
 .header__title {
@@ -29,9 +31,11 @@ body {
   line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 25px;
+  margin-left: 13px;
 }
 
-.hackermanlogo img {
+.images img {
   max-width: 100%;
 }
 
@@ -40,12 +44,10 @@ body {
   }
 
   .header {
-    min-height: 200px;
+    min-height: 216px;
   }
 
   .header__logo img {
-    width: 200px;
-    height: 120px;
   }
 
   .header__title {
@@ -53,5 +55,6 @@ body {
     height: 100px;
     font-size: 36px;
     line-height: 40px;
+    margin-left: 100px;
   }
 }
