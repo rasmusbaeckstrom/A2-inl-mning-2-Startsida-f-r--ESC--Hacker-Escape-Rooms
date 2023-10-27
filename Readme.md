@@ -78,4 +78,4 @@ Jag tänker att jag ska testa BEM-metoden.
 - Uppmärksammar på Figma att vissa element kommer behöva t.ex flex för att fungera bra mellan mobile/desktop
   så planerar min HTML utifrån det.
 
-- HTML grund klar. Fortfarande fix kvar när det gäller namngivning av <tags>.
+- HTML grund klar. Fortfarande fix kvar när det gäller namngivning av tags.
