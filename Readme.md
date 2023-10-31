@@ -79,3 +79,16 @@ Jag tänker att jag ska testa BEM-metoden.
   så planerar min HTML utifrån det.
 
 - HTML grund klar. Fortfarande fix kvar när det gäller namngivning av tags.
+
+---
+
+231030:
+
+- Påbörjade buttons partiet och review, samt lite annat.
+
+---
+
+231031:
+
+- Gjorde klart reviewdelen och fortsatt med challengesdelen. Både jobb i HTML och CSS.
+  Challengedelen saknar "sidoscroll" om det var ett krav?
