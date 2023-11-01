@@ -92,3 +92,10 @@ Jag tänker att jag ska testa BEM-metoden.
 
 - Gjorde klart reviewdelen och fortsatt med challengesdelen. Både jobb i HTML och CSS.
   Challengedelen saknar "sidoscroll" om det var ett krav?
+
+---
+
+231101:
+
+Fixat problem när sidan "minskas". Fixat problem med container, avslutades innan footer.
+Gjort klart maindelen. Nu vidare till footer. Sen behöver även meny läggas till i header.

@@ -4,12 +4,13 @@
 
 body {
   background-color: white;
-  margin: 0;
+  margin: auto;
 }
 
 .container {
-  max-width: 100%;
+  width: fit-content;
   text-align: center;
+  margin: auto;
 }
 
 .header {
@@ -60,7 +61,7 @@ body {
   border: none;
   border-radius: 4px;
   font-size: 24px;
-  margin-top: 30px;
+  margin-top: 40px;
   line-height: 28.13px;
 }
 
@@ -208,6 +209,131 @@ body {
   text-align: center;
   margin-left: 150px;
   margin-bottom: 10px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  background-color: #011827;
+  height: 500px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.story .story--Story1 {
+  color: white;
+  width: 439px;
+  height: 234px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32.81px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.story_button {
+  width: 308px;
+  height: 66px;
+  border: 2px solid #8acfe5;
+  border-radius: 4px;
+  background-color: #011827;
+  color: #8acfe5;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+.booking1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 703px;
+}
+
+.booking1 img {
+  max-width: 480px;
+  max-height: 300px;
+}
+
+.booking1_title {
+  width: 440px;
+  height: 106px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.booking1_text {
+  width: 440px;
+  height: 112px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  text-align: left;
+  margin: 0;
+}
+
+.booking1_button {
+  width: 308px;
+  height: 66px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #e3170a;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  margin-right: 130px;
+  margin-top: 25px;
+}
+
+.booking2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 762px;
+}
+
+.booking2 img {
+  max-width: 480px;
+  max-height: 300px;
+}
+
+.booking2_title {
+  width: 440px;
+  height: 106px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.booking2_text {
+  width: 440px;
+  height: 112px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.booking2_button {
+  width: 308px;
+  height: 66px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #e3170a;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  margin-right: 130px;
+  margin-top: 25px;
 }
 
 @media screen and (min-width: 768px) {
