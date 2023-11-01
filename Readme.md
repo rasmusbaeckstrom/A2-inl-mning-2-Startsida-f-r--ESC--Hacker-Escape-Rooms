@@ -97,5 +97,7 @@ Jag tänker att jag ska testa BEM-metoden.
 
 231101:
 
-Fixat problem när sidan "minskas". Fixat problem med container, avslutades innan footer.
-Gjort klart maindelen. Nu vidare till footer. Sen behöver även meny läggas till i header.
+- Fixat problem när sidan "minskas". Fixat problem med container, avslutades innan footer.
+  Gjort klart maindelen. Nu vidare till footer. Sen behöver även meny läggas till i header.
+
+- Footer grund klar.
