@@ -129,9 +129,15 @@ body {
   margin-top: 50px;
 }
 
-.review-content {
+.review-content1 {
+  width: 439px;
+  height: 139px;
   display: flex;
   align-items: flex-start;
+}
+
+.review-content2 {
+  display: none;
 }
 
 .review-image {
@@ -156,6 +162,8 @@ body {
 }
 
 .reviews_visitorsign {
+  margin-top: 5px;
+  margin-bottom: 0;
   font-size: 18px;
 }
 
@@ -549,5 +557,41 @@ body {
   .buttons2 .buttons--On-site-challenges {
     margin: 0;
     margin-left: 5px;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+  .review-content2 {
+    display: flex;
+    width: 522px;
+    height: 141px;
+    margin-left: 40px;
+  }
+
+  .review-content1 {
+    display: flex;
+    width: 522px;
+    height: 141px;
+    margin-right: 40px;
+  }
+
+  .review-image {
+    width: 96px;
+    height: 96px;
+    margin-right: 20px;
+  }
+
+  .reviews_visitortext {
+    width: 410px;
+  }
+
+  .reviews_visitorsign {
+    width: 285px;
   }
 }
