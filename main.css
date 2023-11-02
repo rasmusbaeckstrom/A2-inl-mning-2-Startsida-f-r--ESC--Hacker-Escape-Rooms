@@ -143,10 +143,19 @@ body {
 
 .challenges-content {
   display: flex;
-  max-width: 363px;
+  overflow-x: auto;
+  max-width: 400px;
   min-height: 446px;
+  padding: 10px 5px 10px 5px;
+}
+
+.challenges .challenges--challenge1,
+.challenges .challenges--challenge2,
+.challenges .challenges--challenge3 {
+  width: 363px;
   border-radius: 8px;
-  box-shadow: 0px 0px 5px 2px rgb(206, 206, 206);
+  box-shadow: 0px 0px 5px 2px #b6bdb5;
+  margin-right: 20px;
 }
 
 .challenges_rating {
@@ -346,6 +355,7 @@ body {
   background-color: #011827;
   height: 566px;
   color: white;
+  align-items: center;
 }
 
 .footer_story .footer_story--topic {
@@ -355,6 +365,8 @@ body {
   font-size: 18px;
   line-height: 21.09px;
   text-align: left;
+  margin-top: 60px;
+  margin-bottom: 10px;
 }
 
 .footer_story .footer_story--text {
@@ -364,6 +376,7 @@ body {
   font-size: 18px;
   line-height: 21.09px;
   text-align: left;
+  margin: 0;
 }
 
 .footer_sitemap .footer_sitemap--topic {
@@ -373,13 +386,15 @@ body {
   font-size: 18px;
   line-height: 21.09px;
   text-align: left;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .footer_sitemap .footer_sitemap--links {
   display: flex;
   flex-direction: column;
-  width: 409px;
-  height: 119px;
+  width: 439px;
+  height: 126px;
   font-weight: 400;
   font-size: 18px;
   line-height: 21.09px;
@@ -393,12 +408,14 @@ body {
   font-size: 18px;
   line-height: 21.09px;
   text-align: left;
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .footer_followus .footer_followus--links {
   display: flex;
   flex-direction: column;
-  width: 409px;
+  width: 439px;
   height: 119px;
   font-weight: 400;
   font-size: 18px;

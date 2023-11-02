@@ -101,3 +101,10 @@ Jag tänker att jag ska testa BEM-metoden.
   Gjort klart maindelen. Nu vidare till footer. Sen behöver även meny läggas till i header.
 
 - Footer grund klar.
+
+---
+
+231102
+
+- Gjort klart footer. Lagt till sidoscroll i challenges-sektionen.
+  Nu ska "mobilefirst" vara klart rent visuellt.
