@@ -111,3 +111,4 @@ Jag tänker att jag ska testa BEM-metoden.
 
 - Påbörjat desktop-delen. Navbar klar (hoover saknas).
 - Bilden under, hur ska den skalas? ser bra ut till 900px, sen för stor?
+- Fixat buttons-delen. Fick lägga till nytt namn på buttons omgång två (buttons2).

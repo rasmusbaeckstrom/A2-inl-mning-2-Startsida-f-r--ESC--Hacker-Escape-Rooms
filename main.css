@@ -87,6 +87,41 @@ body {
   text-decoration: underline;
 }
 
+.buttons2 {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons2 .buttons--On-site-challenges {
+  width: 308px;
+  height: 66px;
+  background-color: #8acfe5;
+  color: #011827;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  font-size: 24px;
+  margin-top: 40px;
+  line-height: 28.13px;
+}
+
+.buttons2 .buttons--Online-challenges {
+  width: 142px;
+  height: 20px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+  line-height: 18.75px;
+  margin-top: 20px;
+  color: #36769d;
+  text-decoration: underline;
+}
+
 .reviews {
   display: flex;
   flex-direction: column;
@@ -463,5 +498,56 @@ body {
 
   .topnav a:last-child {
     margin-right: 0;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -36px;
+  }
+
+  .buttons .buttons--Online-challenges {
+    width: 308px;
+    height: 66px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #e3170a;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 5px;
+  }
+
+  .buttons .buttons--On-site-challenges {
+    margin: 0;
+    margin-left: 5px;
+  }
+
+  .buttons2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .buttons2 .buttons--Online-challenges {
+    width: 308px;
+    height: 66px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #e3170a;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    text-decoration: none;
+    margin: 0;
+    margin-right: 5px;
+  }
+
+  .buttons2 .buttons--On-site-challenges {
+    margin: 0;
+    margin-left: 5px;
   }
 }
