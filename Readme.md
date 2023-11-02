@@ -113,3 +113,5 @@ Jag tänker att jag ska testa BEM-metoden.
 - Bilden under, hur ska den skalas? ser bra ut till 900px, sen för stor?
 - Fixat buttons-delen. Fick lägga till nytt namn på buttons omgång två (buttons2).
 - Fixat reviews-delen.
+- Fixat buttons2-delen.
+- Fixat story-delen.

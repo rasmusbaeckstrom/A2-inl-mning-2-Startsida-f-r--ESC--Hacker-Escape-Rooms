@@ -594,4 +594,38 @@ body {
   .reviews_visitorsign {
     width: 285px;
   }
+
+  .challenges-content {
+    overflow-x: hidden;
+    max-width: fit-content;
+  }
+
+  .challenges .challenges--challenge1 {
+    margin: 0;
+  }
+
+  .challenges .challenges--challenge2 {
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .challenges .challenges--challenge3 {
+    margin: 0;
+  }
+
+  .challenges {
+    margin-bottom: 80px;
+  }
+
+  .buttons2 {
+    margin-bottom: 80px;
+  }
+
+  .story .story--Story1 {
+    width: 632px;
+    height: 169px;
+    margin-bottom: 0;
+    margin-top: 125px;
+  }
 }
