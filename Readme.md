@@ -115,3 +115,4 @@ Jag tänker att jag ska testa BEM-metoden.
 - Fixat reviews-delen.
 - Fixat buttons2-delen.
 - Fixat story-delen.
+- Påbörjat booking-delen...
