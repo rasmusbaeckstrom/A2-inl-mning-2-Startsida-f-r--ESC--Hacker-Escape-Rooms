@@ -108,3 +108,6 @@ Jag tänker att jag ska testa BEM-metoden.
 
 - Gjort klart footer. Lagt till sidoscroll i challenges-sektionen.
   Nu ska "mobilefirst" vara klart rent visuellt.
+
+- Påbörjat desktop-delen. Navbar klar (hoover saknas).
+- Bilden under, hur ska den skalas? ser bra ut till 900px, sen för stor?
