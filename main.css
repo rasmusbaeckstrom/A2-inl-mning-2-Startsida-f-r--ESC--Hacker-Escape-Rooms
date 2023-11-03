@@ -7,6 +7,14 @@ a {
   color: white;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #8acfe5;
+}
+
 body {
   background-color: white;
   margin: auto;
@@ -192,7 +200,7 @@ body {
 .challenges-content {
   display: flex;
   overflow-x: auto;
-  max-width: 400px;
+  max-width: 450px;
   min-height: 446px;
   padding: 10px 5px 10px 5px;
 }
@@ -476,7 +484,7 @@ body {
   margin-top: 20px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
   .header {
     min-height: 156px;
   }
