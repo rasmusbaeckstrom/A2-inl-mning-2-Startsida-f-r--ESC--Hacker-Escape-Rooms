@@ -104,7 +104,7 @@ Jag tänker att jag ska testa BEM-metoden.
 
 ---
 
-231102
+231102:
 
 - Gjort klart footer. Lagt till sidoscroll i challenges-sektionen.
   Nu ska "mobilefirst" vara klart rent visuellt.
@@ -116,3 +116,9 @@ Jag tänker att jag ska testa BEM-metoden.
 - Fixat buttons2-delen.
 - Fixat story-delen.
 - Påbörjat booking-delen...
+
+---
+
+231103:
+
+- Booking1 klar.
