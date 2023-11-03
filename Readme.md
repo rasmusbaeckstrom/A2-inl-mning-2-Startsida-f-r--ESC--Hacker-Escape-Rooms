@@ -123,3 +123,9 @@ Jag tänker att jag ska testa BEM-metoden.
 
 - Booking1 klar.
 - Booking2 klar.
+- Footer klar.
+
+Småsaker kvarstår.
+Ev. justera sidoscroll.
+Ev. justera menyknappar vid större skärm
+Lägga till hover på meny. Även en generell hover på buttons?
