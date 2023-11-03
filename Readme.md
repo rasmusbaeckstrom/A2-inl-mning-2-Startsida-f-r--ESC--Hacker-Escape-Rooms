@@ -122,3 +122,4 @@ Jag tänker att jag ska testa BEM-metoden.
 231103:
 
 - Booking1 klar.
+- Booking2 klar.
