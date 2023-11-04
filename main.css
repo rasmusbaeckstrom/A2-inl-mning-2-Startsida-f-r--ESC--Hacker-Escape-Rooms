@@ -32,14 +32,14 @@ body {
   min-height: 144px;
 }
 
-.header__logo {
+.header_logo {
   width: 128px;
   height: 82px;
   margin-top: 26px;
   margin-left: 27px;
 }
 
-.header__title {
+.header_title {
   width: 78px;
   height: 84px;
   color: #ffffff;
@@ -69,7 +69,7 @@ body {
   align-items: center;
 }
 
-.buttons .buttons--On-site-challenges {
+.buttons_on-site-challenges {
   width: 308px;
   height: 66px;
   background-color: #8acfe5;
@@ -82,7 +82,7 @@ body {
   line-height: 28.13px;
 }
 
-.buttons .buttons--Online-challenges {
+.buttons_online-challenges {
   width: 142px;
   height: 20px;
   background-color: white;
@@ -104,7 +104,7 @@ body {
   align-items: center;
 }
 
-.buttons2 .buttons--On-site-challenges {
+.buttons2_on-site-challenges {
   width: 308px;
   height: 66px;
   background-color: #8acfe5;
@@ -117,7 +117,7 @@ body {
   line-height: 28.13px;
 }
 
-.buttons2 .buttons--Online-challenges {
+.buttons2_online-challenges {
   width: 142px;
   height: 20px;
   background-color: white;
@@ -137,30 +137,26 @@ body {
   margin-top: 50px;
 }
 
-.review-content1 {
+.reviews_content1 {
   width: 439px;
   height: 139px;
   display: flex;
   align-items: flex-start;
 }
 
-.review-content2 {
-  display: none;
-}
-
-.review-image {
+.reviews_content1_image {
   width: 73.34px;
   height: 72px;
   margin-right: 20px;
 }
 
-.review-text {
+.reviews_content1_text {
   display: flex;
   flex-direction: column;
   text-align: left;
 }
 
-.reviews_visitortext {
+.reviews_content1_visitortext {
   width: 343.26px;
   margin: 0;
   font-weight: 400;
@@ -169,13 +165,44 @@ body {
   line-height: 28.13px;
 }
 
-.reviews_visitorsign {
+.reviews_content1_visitorsign {
   margin-top: 5px;
   margin-bottom: 0;
   font-size: 18px;
 }
 
-.challenges .challenges--Title {
+.reviews_content2 {
+  display: none;
+}
+
+.reviews_content2_image {
+  width: 73.34px;
+  height: 72px;
+  margin-right: 20px;
+}
+
+.reviews_content2_text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.reviews_content2_visitortext {
+  width: 343.26px;
+  margin: 0;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+.reviews_content2_visitorsign {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.challenges_title {
   font-weight: 400;
   font-size: 32px;
   line-height: 37.5px;
@@ -189,7 +216,9 @@ body {
   align-items: center;
 }
 
-.challenges_title {
+.challenges_content_challenge1_title,
+.challenges_content_challenge2_title,
+.challenges_content_challenge3_title {
   font-weight: 400;
   font-size: 28px;
   line-height: 32.81px;
@@ -197,7 +226,7 @@ body {
   margin-bottom: 0;
 }
 
-.challenges-content {
+.challenges_content {
   display: flex;
   overflow-x: auto;
   max-width: 450px;
@@ -205,22 +234,26 @@ body {
   padding: 10px 5px 10px 5px;
 }
 
-.challenges .challenges--challenge1,
-.challenges .challenges--challenge2,
-.challenges .challenges--challenge3 {
+.challenges_content_challenge1,
+.challenges_content_challenge2,
+.challenges_content_challenge3 {
   width: 363px;
   border-radius: 8px;
   box-shadow: 0px 0px 5px 2px #b6bdb5;
   margin-right: 20px;
 }
 
-.challenges_rating {
+.challenges_content_challenge1_rating,
+.challenges_content_challenge2_rating,
+.challenges_content_challenge3_rating {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.challenges_rating-text {
+.challenges_content_challenge1_rating_text,
+.challenges_content_challenge2_rating_text,
+.challenges_content_challenge3_rating_text {
   margin: 0;
   font-size: 14px;
   font-weight: 400;
@@ -229,18 +262,26 @@ body {
   padding-left: 10px;
 }
 
-.challenges-textcontent {
+.challenges_content_challenge1_textcontent,
+.challenges_content_challenge2_textcontent,
+.challenges_content_challenge3_textcontent {
   text-align: left;
   padding-left: 8px;
 }
 
-.challenges-stars {
+.challenges_content_challenge1_rating_stars,
+.challenges_content_challenge2_rating_stars,
+.challenges_content_challenge3_rating_stars {
   display: inline-block;
   padding-left: 3px;
 }
 
-.challenges-star1,
-.challenges-star5 {
+.challenges_content_challenge1_rating_stars_star1,
+.challenges_content_challenge1_rating_stars_star5,
+.challenges_content_challenge2_rating_stars_star1,
+.challenges_content_challenge2_rating_stars_star5,
+.challenges_content_challenge3_rating_stars_star1,
+.challenges_content_challenge3_rating_stars_star5 {
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
@@ -248,15 +289,21 @@ body {
   height: 16px;
 }
 
-.challenges-star1 {
+.challenges_content_challenge1_rating_stars_star1,
+.challenges_content_challenge2_rating_stars_star1,
+.challenges_content_challenge3_rating_stars_star1 {
   background-image: url("images/Star 1.png");
 }
 
-.challenges-star5 {
+.challenges_content_challenge1_rating_stars_star5,
+.challenges_content_challenge2_rating_stars_star5,
+.challenges_content_challenge3_rating_stars_star5 {
   background-image: url("images/Star 5.png");
 }
 
-.challenges_text {
+.challenges_content_challenge1_text,
+.challenges_content_challenge2_text,
+.challenges_content_challenge3_text {
   width: 328px;
   height: 80px;
   font-weight: 400;
@@ -265,7 +312,9 @@ body {
   margin-top: 15px;
 }
 
-.challenges_button {
+.challenges_content_challenge1_button,
+.challenges_content_challenge2_button,
+.challenges_content_challenge3_button {
   width: 179.28px;
   height: 44px;
   border: none;
@@ -289,7 +338,7 @@ body {
   margin-top: 50px;
 }
 
-.story .story--Story1 {
+.story_story1 {
   color: white;
   width: 439px;
   height: 234px;
@@ -300,7 +349,7 @@ body {
   margin-top: 80px;
 }
 
-.story_button {
+.story_story1_button {
   width: 308px;
   height: 66px;
   border: 2px solid #8acfe5;
@@ -324,7 +373,7 @@ body {
   height: 300px;
 }
 
-.booking1_title {
+.booking1_container_title {
   width: 440px;
   height: 106px;
   font-weight: 700;
@@ -334,7 +383,7 @@ body {
   margin-bottom: 0;
 }
 
-.booking1_text {
+.booking1_container_text {
   width: 440px;
   height: 112px;
   font-weight: 400;
@@ -344,7 +393,7 @@ body {
   margin: 0;
 }
 
-.booking1_button {
+.booking1_container_button {
   width: 308px;
   height: 66px;
   border: none;
@@ -371,7 +420,7 @@ body {
   height: 300px;
 }
 
-.booking2_title {
+.booking2_container_title {
   width: 440px;
   height: 106px;
   font-weight: 700;
@@ -381,7 +430,7 @@ body {
   margin-bottom: 0;
 }
 
-.booking2_text {
+.booking2_container_text {
   width: 440px;
   height: 112px;
   font-weight: 400;
@@ -392,7 +441,7 @@ body {
   margin-bottom: 0;
 }
 
-.booking2_button {
+.booking2_container_button {
   width: 308px;
   height: 66px;
   border: none;
@@ -415,7 +464,7 @@ body {
   align-items: center;
 }
 
-.footer_story .footer_story--topic {
+.footer_story_topic {
   width: 242px;
   height: 21px;
   font-weight: 700;
@@ -426,7 +475,7 @@ body {
   margin-bottom: 10px;
 }
 
-.footer_story .footer_story--text {
+.footer_story_text {
   width: 439px;
   height: 83px;
   font-weight: 400;
@@ -436,7 +485,7 @@ body {
   margin: 0;
 }
 
-.footer_sitemap .footer_sitemap--topic {
+.footer_sitemap_topic {
   width: 72px;
   height: 21px;
   font-weight: 700;
@@ -447,7 +496,7 @@ body {
   margin-bottom: 10px;
 }
 
-.footer_sitemap .footer_sitemap--links {
+.footer_sitemap_links {
   display: flex;
   flex-direction: column;
   width: 439px;
@@ -458,7 +507,7 @@ body {
   text-align: left;
 }
 
-.footer_followus .footer_followus--topic {
+.footer_followus_topic {
   width: 102px;
   height: 21px;
   font-weight: 700;
@@ -469,7 +518,7 @@ body {
   margin-bottom: 10px;
 }
 
-.footer_followus .footer_followus--links {
+.footer_followus_links {
   display: flex;
   flex-direction: column;
   width: 439px;
@@ -480,7 +529,7 @@ body {
   text-align: left;
 }
 
-.footer_sitemap.footer_sitemap--links a:nth-child(4) {
+.footer_sitemap_links a:nth-child(4) {
   margin-top: 20px;
 }
 
@@ -489,7 +538,7 @@ body {
     min-height: 156px;
   }
 
-  .header__title {
+  .header_title {
     width: 404px;
     height: 47px;
     font-size: 40px;
@@ -523,7 +572,7 @@ body {
     margin-top: -36px;
   }
 
-  .buttons .buttons--Online-challenges {
+  .buttons_online-challenges {
     width: 308px;
     height: 66px;
     border: none;
@@ -538,7 +587,7 @@ body {
     margin-right: 5px;
   }
 
-  .buttons .buttons--On-site-challenges {
+  .buttons_on-site-challenges {
     margin: 0;
     margin-left: 5px;
   }
@@ -548,7 +597,7 @@ body {
     flex-direction: row-reverse;
   }
 
-  .buttons2 .buttons--Online-challenges {
+  .buttons2_online-challenges {
     width: 308px;
     height: 66px;
     border: none;
@@ -563,7 +612,7 @@ body {
     margin-right: 5px;
   }
 
-  .buttons2 .buttons--On-site-challenges {
+  .buttons2_on-site-challenges {
     margin: 0;
     margin-left: 5px;
   }
@@ -576,50 +625,64 @@ body {
     margin-top: 100px;
   }
 
-  .review-content2 {
-    display: flex;
-    width: 522px;
-    height: 141px;
-    margin-left: 40px;
-  }
-
-  .review-content1 {
+  .reviews_content1 {
     display: flex;
     width: 522px;
     height: 141px;
     margin-right: 40px;
   }
 
-  .review-image {
+  .reviews_content1_image {
     width: 96px;
     height: 96px;
     margin-right: 20px;
   }
 
-  .reviews_visitortext {
+  .reviews_content1_visitortext {
     width: 410px;
   }
 
-  .reviews_visitorsign {
+  .reviews_content1_visitorsign {
     width: 285px;
   }
 
-  .challenges-content {
+  .reviews_content2 {
+    display: flex;
+    width: 522px;
+    height: 141px;
+    margin-left: 40px;
+  }
+
+  .reviews_content2_image {
+    width: 96px;
+    height: 96px;
+    margin-right: 20px;
+  }
+
+  .reviews_content2_visitortext {
+    width: 410px;
+  }
+
+  .reviews_content2_visitorsign {
+    width: 285px;
+  }
+
+  .challenges_content {
     overflow-x: hidden;
     max-width: 100%;
   }
 
-  .challenges .challenges--challenge1 {
+  .challenges_content_challenge1 {
     margin: 0;
   }
 
-  .challenges .challenges--challenge2 {
+  .challenges_content_challenge2 {
     margin: 0;
     margin-left: 40px;
     margin-right: 40px;
   }
 
-  .challenges .challenges--challenge3 {
+  .challenges_content_challenge3 {
     margin: 0;
   }
 
@@ -631,7 +694,7 @@ body {
     margin-bottom: 80px;
   }
 
-  .story .story--Story1 {
+  .story_story1 {
     width: 632px;
     height: 169px;
     margin-bottom: 0;
@@ -657,18 +720,18 @@ body {
     height: 460px;
   }
 
-  .booking1_title {
+  .booking1_container_title {
     width: 416px;
     margin-top: 66px;
   }
 
-  .booking1_text {
+  .booking1_container_text {
     width: 416px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .booking1_button {
+  .booking1_container_button {
     margin-right: 106px;
     margin-bottom: 66px;
     margin-top: 0;
@@ -693,18 +756,18 @@ body {
     height: 460px;
   }
 
-  .booking2_title {
+  .booking2_container_title {
     width: 416px;
     margin-top: 66px;
   }
 
-  .booking2_text {
+  .booking2_container_text {
     width: 416px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .booking2_button {
+  .booking2_container_button {
     margin-right: 106px;
     margin-bottom: 66px;
     margin-top: 0;
@@ -720,11 +783,11 @@ body {
     margin-right: 230px;
   }
 
-  .footer_story .footer_story--topic {
+  .footer_story_topic {
     margin-top: 0;
   }
 
-  .footer_story .footer_story--text {
+  .footer_story_text {
     width: 416px;
     height: 109px;
   }
@@ -734,7 +797,7 @@ body {
     width: 150px;
   }
 
-  .footer_sitemap .footer_sitemap--topic {
+  .footer_sitemap_topic {
     margin-top: 0;
   }
 
@@ -744,11 +807,11 @@ body {
     margin-left: 30px;
   }
 
-  .footer_followus .footer_followus--topic {
+  .footer_followus_topic {
     margin-top: 0px;
   }
 
-  .footer_followus .footer_followus--links {
+  .footer_followus_links {
     width: 150px;
   }
 }

@@ -131,3 +131,9 @@ Jag tänker att jag ska testa BEM-metoden.
 Småsaker kvarstår.
 Ev. justera sidoscroll.
 Ev. justera menyknappar vid större skärm
+
+---
+
+231104:
+
+Justera namngivning på alla tags i HTML och CSS.
