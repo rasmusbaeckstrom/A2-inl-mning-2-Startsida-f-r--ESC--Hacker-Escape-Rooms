@@ -136,4 +136,4 @@ Ev. justera menyknappar vid större skärm
 
 231104:
 
-Justera namngivning på alla tags i HTML och CSS.
+Justera namngivning på alla element och klasser i HTML och CSS.
