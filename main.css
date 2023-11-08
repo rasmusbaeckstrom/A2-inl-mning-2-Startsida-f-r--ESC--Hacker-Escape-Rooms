@@ -68,6 +68,20 @@ body {
   background-repeat: no-repeat;
 }
 
+.mobile_menu_background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .mobile_menu {
   display: none;
   position: fixed;
@@ -80,6 +94,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 50px;
 }
 
 .topnav {

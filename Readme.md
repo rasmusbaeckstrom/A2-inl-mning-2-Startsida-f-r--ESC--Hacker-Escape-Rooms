@@ -145,6 +145,15 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 - Fortsättning på denna sida. Uppgift:
   A3, inlämning 1: Mobil-meny i på ESC-sidan
 
-- Steg ett. Lagt till en meny till direkt i body utanför min container.
-  Lagt till knapp som ska användas för att öppna menyn. Ska inte synas över breakpoint.
+- Lagt till en meny direkt i body utanför min "maincontainer".
+  Lagt till knapp i header som ska användas för att öppna menyn. Ska inte synas över breakpoint.
   Lagt till lite CSS. Test.
+  Lagt till en div för "bakgrund" till menyn.
+  Lagt till två funktioner i JS, en för öppna meny och en för stänga meny.
+  (fick även lägga till bakgrunden i samma funktion)
+
+  Lägger till lite margin på menyn för att "se" bakgrunden. Centrera?
+
+  Det jag vet behöver fixas:
+  Animationer, se video.
+  Nu går det att scrolla, inte ok?
