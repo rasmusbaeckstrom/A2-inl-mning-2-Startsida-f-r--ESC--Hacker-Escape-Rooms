@@ -12,12 +12,27 @@
     />
   </head>
   <body>
+    <div class="mobile_menu" id="mobileMenu">
+      <a href="">Play online</a>
+      <a href="">Play on-site</a>
+      <a href="">The story</a>
+      <a href="">Contact us</a>
+      <button id="closeMobileMenu" class="close_button" onclick="closeMenu()">
+        Close
+      </button>
+    </div>
     <div class="container">
       <header class="header">
         <div class="header_logo">
           <img src="images/ESC logo.png" alt="header logo with text ESC" />
         </div>
         <div class="header_title">Hacker Escape Rooms</div>
+        <div class="header_mobile_menu_content">
+          <button
+            class="header_mobile_menu_content_btn"
+            onclick="openMenu()"
+          ></button>
+        </div>
       </header>
       <nav class="topnav">
         <a href="">Play online</a>

@@ -137,3 +137,14 @@ Ev. justera menyknappar vid större skärm
 231104:
 
 Justera namngivning på alla element och klasser i HTML och CSS.
+
+---
+
+231108:
+
+- Fortsättning på denna sida. Uppgift:
+  A3, inlämning 1: Mobil-meny i på ESC-sidan
+
+- Steg ett. Lagt till en meny till direkt i body utanför min container.
+  Lagt till knapp som ska användas för att öppna menyn. Ska inte synas över breakpoint.
+  Lagt till lite CSS. Test.
