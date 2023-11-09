@@ -21,7 +21,6 @@ body {
 }
 
 .container {
-  width: fit-content;
   text-align: center;
   margin: auto;
 }
@@ -624,6 +623,12 @@ body {
 }
 
 @media screen and (min-width: 1024px) {
+  #hackerMan {
+    height: 60vh;
+    min-width: 100%;
+    object-fit: cover;
+  }
+
   .header {
     min-height: 156px;
   }
