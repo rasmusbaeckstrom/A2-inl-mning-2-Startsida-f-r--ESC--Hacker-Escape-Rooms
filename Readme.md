@@ -168,3 +168,5 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 - La till boxshadow och och justerade fontsize, button med bild mm.
 - Flyttade closebutton CSS och justerade margin på barn nummer 5.
 - Justerade hackermanbilden vid breakpoint.
+- Justerade bilden igen. Har något fel som gör att 100vw inte funkar, gick
+  att komma runt med 999? Kolla vidare...

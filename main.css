@@ -625,6 +625,9 @@ body {
 
 @media screen and (min-width: 1024px) {
   #hackerMan {
+    object-fit: cover;
+    height: 70vh;
+    width: 999vh;
   }
 
   .header {
