@@ -123,6 +123,16 @@ body {
   margin-bottom: 50px;
 }
 
+.mobile_menu a:nth-child(5) {
+  margin-bottom: 0px;
+}
+
+.mobile_menu_btn_container {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
 .close_button {
   width: 40px;
   height: 40px;

@@ -166,3 +166,4 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 - Ändrade position och storlek på mobilmenyn så man ser bakgrunden runt om.
 - La till i JS så y-scroll försvinner när menyn är öppen.
 - La till boxshadow och och justerade fontsize, button med bild mm.
+- Flyttade closebutton CSS och justerade margin på barn nummer 5.
