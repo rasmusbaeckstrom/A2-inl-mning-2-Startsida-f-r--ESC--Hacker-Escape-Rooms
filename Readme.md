@@ -157,3 +157,10 @@ Justera namngivning på alla element och klasser i HTML och CSS.
   Det jag vet behöver fixas:
   Animationer, se video.
   Nu går det att scrolla, inte ok?
+
+---
+
+231109:
+
+- Ändra mobilmenyns bakgrund till opacity 0.5 och la till fade in keyframe.
+- Ändrade position och storlek på mobilmenyn så man ser bakgrunden runt om.
