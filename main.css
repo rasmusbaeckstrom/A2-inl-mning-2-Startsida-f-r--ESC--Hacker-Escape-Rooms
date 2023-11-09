@@ -62,7 +62,7 @@ body {
   height: 32px;
   margin-top: 25px;
   margin-right: 15px;
-  background-image: url("/images/Menu_button.png");
+  background-image: url("images/Menu_button.png");
   background-color: #011827;
   border: none;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ body {
 .close_button {
   width: 40px;
   height: 40px;
-  background-image: url("/images/close_button.png");
+  background-image: url("images/close_button.png");
   background-color: #011827;
   border: none;
   background-repeat: no-repeat;
