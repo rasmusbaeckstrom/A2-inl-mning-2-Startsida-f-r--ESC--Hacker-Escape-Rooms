@@ -164,3 +164,4 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 
 - Ändra mobilmenyns bakgrund till opacity 0.5 och la till fade in keyframe.
 - Ändrade position och storlek på mobilmenyn så man ser bakgrunden runt om.
+- La till i JS så y-scroll försvinner när menyn är öppen.
