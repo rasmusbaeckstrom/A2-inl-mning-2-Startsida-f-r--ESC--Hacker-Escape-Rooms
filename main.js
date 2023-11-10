@@ -2,9 +2,11 @@ function openMenu() {
   let mobileMenu = document.getElementById("mobileMenu");
   let mobileMenuBackground = document.getElementById("mobileMenuBackground");
   let body = document.querySelector("body");
-  mobileMenu.style.display = "flex";
   mobileMenuBackground.style.display = "flex";
   body.style.overflowY = "hidden";
+  setTimeout(function () {
+    mobileMenu.style.display = "flex";
+  }, 200);
 }
 
 function closeMenu() {

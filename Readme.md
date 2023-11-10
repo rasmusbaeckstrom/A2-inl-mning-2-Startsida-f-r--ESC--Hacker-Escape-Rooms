@@ -170,3 +170,11 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 - Justerade hackermanbilden vid breakpoint.
 - Justerade bilden igen. Har något fel som gör att 100vw inte funkar, gick
   att komma runt med 999? Kolla vidare...
+
+---
+
+231110:
+
+- Justera fade in på bakgrund och meny. En extra fadein-funktion på menyn
+  som gör att den växer lite. Även en timeout i JS, ser ut som menyn ska komma lite efter
+  bakgrunden på bifogad video.
