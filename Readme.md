@@ -178,3 +178,12 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 - Justera fade in på bakgrund och meny. En extra fadein-funktion på menyn
   som gör att den växer lite. Även en timeout i JS, ser ut som menyn ska komma lite efter
   bakgrunden på bifogad video.
+
+---
+
+231113:
+
+- HTML: Tog bort onclick och la till id.
+- JS: La till lyssnare på mina knappars id men valde även att lägga till en funktion
+  (handeClick) som körs istället för openMenu direkt. Om inget menyval sker så stängs
+  menyn efter 10 sek.

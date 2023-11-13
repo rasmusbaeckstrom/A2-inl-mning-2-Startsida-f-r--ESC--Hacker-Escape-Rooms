@@ -1,3 +1,16 @@
+document
+  .getElementById("openMobileMenu")
+  .addEventListener("click", handleClick);
+document.getElementById("closeMobileMenu").addEventListener("click", closeMenu);
+
+function handleClick() {
+  openMenu();
+  console.log("The menu will shut down in 10 seconds");
+  setTimeout(() => {
+    closeMenu();
+  }, 10000);
+}
+
 function openMenu() {
   let mobileMenu = document.getElementById("mobileMenu");
   let mobileMenuBackground = document.getElementById("mobileMenuBackground");
