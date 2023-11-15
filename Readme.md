@@ -187,3 +187,5 @@ Justera namngivning på alla element och klasser i HTML och CSS.
 - JS: La till lyssnare på mina knappars id men valde även att lägga till en funktion
   (handeClick) som körs istället för openMenu direkt. Om inget menyval sker så stängs
   menyn efter 10 sek.
+- JS: Ändrat till querySelector och const. Deklarerar alla variabler längst upp så det ser bättre ut.
+  Tog bort att menyn ska stängas efter 10sek, det fungerar fint men inget krav i uppgiften.
